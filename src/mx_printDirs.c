@@ -46,7 +46,7 @@ static void dirprint(int ndir, char **F, t_input input, char *D) {
         && !input.prior[10] && !input.prior[7]) {
         if (!isatty(1))
             mx_catEPrint(F, input.cur_flags, D);
-        else if (input.prior[11])
+        else if (input.prior[12])
             mx_1print(F, input.cur_flags, D);
         else
             mx_standartout(F, ndir, input.cur_flags, D);
