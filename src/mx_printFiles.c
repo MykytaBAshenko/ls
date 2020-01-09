@@ -6,7 +6,7 @@ void mx_printFiles(t_input input, char **F, int *cur_flags) {
             && !input.prior[10] && !input.prior[7]) {
             if (!isatty(1))
                 mx_catEPrint(F, cur_flags, ".");
-            else if (input.prior[11])
+            else if (input.prior[12])
                 mx_1print(F, cur_flags, ".");
             else
                 mx_standartout(F, input.files, cur_flags, ".");
