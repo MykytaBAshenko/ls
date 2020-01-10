@@ -20,6 +20,7 @@ int main(int argc, char *argv[]) {
     mx_printDirs(*input, array->D, cflags);
     free(input);
     free(cflags);
+    exit(1);
 }
 
 static t_input *readinput(int argc, char **argv, t_array array, char *flags) {
